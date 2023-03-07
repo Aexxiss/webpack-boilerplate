@@ -1,0 +1,55 @@
+#navbar {
+    background-color: $background_color_1;
+    width: 100%;
+    display: block;
+    top: 0;
+    position: fixed;
+
+    .navbar-text {
+        list-style-type: none;
+        color: $text_color_1;
+        display: flex;
+        justify-content: flex-end;
+        gap: 40px;
+        font-size: 23px;
+        font-family: $font_family;
+        padding-right: 25px;
+        margin: 0;
+
+        @media only screen and (min-width: 320px) {
+            gap: 0px;
+            font-size: 16px;
+        }
+
+        @media only screen and (min-width: 375px) {
+            justify-content: center;
+            padding: 0;
+            margin: 0 auto;
+        }
+
+        @media only screen and (min-width: 425px) {
+            justify-content: flex-end;
+        }
+
+        @media only screen and (min-width: 768px) {
+            gap: 40px;
+            font-size: 23px;
+            padding-right: 25px;
+            margin: 0;
+            justify-content: flex-end;
+        }
+
+        li {
+            padding: 22.8px;
+        }
+
+        a {
+            color: $text_color_1;
+            text-decoration: none;
+
+            :hover {
+                background-color: $hover_color_1;
+            }
+        }
+    }
+}

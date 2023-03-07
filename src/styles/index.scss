@@ -1,6 +1,15 @@
-@font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter.ttf');
+@import 'variables';
+@import 'navbar';
+@import 'welcome-section';
+@import 'project';
+@import 'profile-link';
+@import 'footer';
+
+html {
+  scroll-behavior: smooth;
 }
 
-@import 'variables';
+body {
+  margin: 0;
+  padding: 0;
+}

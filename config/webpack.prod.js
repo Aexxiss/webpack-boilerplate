@@ -31,6 +31,17 @@ module.exports = merge(common, {
           'sass-loader',
         ],
       },
+      {
+        test: /\.(png|jpg|gif)$/i,
+        loader: 'file-loader',
+        options: {
+          name: '[name].[hash:6].[ext]',
+          outputPath: 'images',
+          publicPath: 'images',
+          emitFile: true,
+          esModule: false,
+        }
+      }
     ],
   },
   plugins: [

@@ -2,17 +2,103 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="x-ua-compatible" content="ie=edge" />
-
-  <title>
-    <%= htmlWebpackPlugin.options.title %>
-  </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Laaast</title>
 </head>
 
 <body>
-  Hello world
+  <header id="navbar">
+    <ul class="navbar-text">
+      <a href="#">
+        <li>About</li>
+      </a>
+      <a href="#projects">
+        <li>Work</li>
+      </a>
+      <a href="#profile-link">
+        <li>Contact</li>
+      </a>
+    </ul>
+  </header>
+  <section id="welcome-section" name="welcome-section">
+    <div class="welcome-section-text">
+      <h1>Hey I am Clueless</h1>
+      <p class="title">( a web developer )</p>
+    </div>
+  </section>
+  <section id="projects" name="projects">
+    <div class="project-tile">
+      <h3>These are some of my projects</h3>
+    </div>
+    <div class="container">
+      <div class="item">
+        <a
+          href="https://www.google.com/search?q=sunset&rlz=1C1YTUH_csCZ1043CZ1043&oq=sunset&aqs=chrome.0.69i59j0i512l4j46i512l2j0i512l3.2025j0j7&sourceid=chrome&ie=UTF-8&ved=2ahUKEwjyoO_j9Lz9AhVbi_0HHROdC1IQ2IkIegQIBxAB&dlnr=1">
+          <img width="300px" height="350px" src="C:\www\webpack-boilerplate\src\images\moto_1.jpg" loading="lazy">
+          <p class="item-text"><span class="hidden">&lt </span>sunset<span class="hidden"> / &gt</span></p>
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://www.ktm-autonova.cz/motocykly/ktm-125-duke-2022/"><img width="300px" height="350px"
+            src="C:\www\webpack-boilerplate\src\images\moto_2.jpg" loading="lazy">
+          <p class="item-text"><span class="hidden">&lt </span>ktm duke-125<span class="hidden"> / &gt</span>
+          </p>
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://fastride.fr/fr/"><img width="300px" height="350px"
+            src="C:\www\webpack-boilerplate\src\images\moto_3.jpg" loading="lazy">
+          <p class="item-text"><span class="hidden">&lt </span>fast ride<span class="hidden"> / &gt</span></p>
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://www.amazon.com/Mexico-Dawn-Donald-Smith/dp/1624193099"><img width="300px" height="350px"
+            src="C:\www\webpack-boilerplate\src\images\moto_4.jpg" loading="lazy">
+          <p class="item-text"><span class="hidden">&lt </span>mexico dawn<span class="hidden"> / &gt</span>
+          </p>
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://cs.wikipedia.org/wiki/Tachometr"><img width="300px" height="350px"
+            src="C:\www\webpack-boilerplate\src\images\moto_5.jpg" loading="lazy">
+          <p class="item-text"><span class="hidden">&lt </span>tachometr<span class="hidden"> / &gt</span></p>
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://nightride.pl/?v=928568b84963"><img width="300px" height="350px"
+            src="C:\www\webpack-boilerplate\src\images\moto_6.jpg" loading="lazy">
+          <p class="item-text"><span class="hidden">&lt </span>night ride<span class="hidden"> / &gt</span>
+          </p>
+        </a>
+      </div>
+    </div>
+    <div class="butt">
+      <button type="button"><a href="https://cz.pornhub.com/">Show all </a></button>
+    </div>
+  </section>
+  <section id="profile-link" name="profile-link">
+    <div class="text">
+      <h2>Let's work together...</h2>
+      <p class="text-text">How do you take your coffee?</p>
+    </div>
+    <div class="links">
+      <ul class="links-text">
+        <li class="down"><a href="https://www.facebook.com/freecodecamp">Facebook</a></li>
+        <li class="down"><a href="https://github.com/freecodecamp">GitHub</a></li>
+        <li class="down"><a href="https://twitter.com/freecodecamp">Twitter</a></li>
+        <li class="down"><a href="mailto: filip.tichanek@bootiq.io">Send a mail</a></li>
+        <li class="down"><a href="tel: 111 222 333">Call me</a></li>
+      </ul>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-text">
+      <p>**This is just a fake portfolio. All the projects and contact details given are not real.</p>
+      <p>© Created for <a href="https://www.freecodecamp.org/">freeCodeCamp</a></p>
+    </div>
+  </footer>
 </body>
 
 </html>

@@ -1,0 +1,92 @@
+#profile-link {
+    width: 100%;
+    height: auto;
+    background-color: $background_color_5;
+
+    h2 {
+        color: $text_color_1;
+        text-align: center;
+        padding-top: 15%;
+        margin: 0;
+        font-size: 50px;
+        font-family: $font_family;
+
+        @media only screen and (min-width: 320px) {
+            font-size: 40px;
+            padding-top: 25%;
+        }
+
+        @media only screen and (min-width: 375px) {
+            font-size: 40px;
+        }
+
+        @media only screen and (min-width: 425px) {
+            font-size: 45px;
+        }
+
+        @media only screen and (min-width: 768px) {
+            padding-top: 10%;
+        }
+
+        @media only screen and (min-width: 1024px) {
+            padding-top: 15%;
+        }
+
+        @media only screen and (min-width: 1440px) {
+            font-size: 50px;
+        }
+    }
+
+    .text-text {
+        color: $text_color_1;
+        text-align: center;
+        font-family: $font_family;
+        font-size: 20px;
+        font-style: italic;
+    }
+
+    .links-text {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        padding: 5% 0 18% 0;
+        text-shadow: 2px 2px 1px #1f1f1f;
+        margin: 0;
+
+        @media only screen and (min-width: 320px) {
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+        }
+
+        @media only screen and (min-width: 1024px) {
+            flex-direction: row;
+            gap: 40px;
+        }
+
+        @media only screen and (min-width: 1440px) {
+            font-size: 35px;
+        }
+
+        a:link {
+            color: $text_color_1;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: $text_color_1;
+            padding-top: 10px;
+            text-shadow: 2px 2px 1px #1f1f1f;
+        }
+
+        a:visited {
+            color: $text_color_1;
+        }
+
+        .down:hover {
+            padding-top: 5px;
+            transition: padding 0.4s ease-out;
+        }
+    }
+}
